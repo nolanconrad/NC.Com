@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Arvo', serif;
+    background-color: #E8DCB9;
 }
 .topInfo {
     width: 100%;
@@ -61,4 +62,17 @@ p {
     margin: 0px;
     padding: 10px;
     font-style: italic;
+}
+@media only screen and (min-width: 1420px) {
+    .mainContent {
+        width: 65%; 
+    }
+    .topInfo {
+        grid-template-rows: 175px 1fr;
+    }  
+}
+@media only screen and (min-width: 1000px) {
+    .mainContent {
+        width: 65%; 
+    }  
 }

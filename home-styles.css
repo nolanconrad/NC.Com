@@ -59,10 +59,6 @@ a:visited {
     color: black;
     
 }
-a:hover 
-a:active 
-
-
 .service-container {
     display: grid;
     grid-template-columns: 100%;
@@ -90,4 +86,10 @@ a:active
 }
 .service-wrapper h2 {
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 1200px) {
+    .main {
+        width: 65%; 
+    }
 }
