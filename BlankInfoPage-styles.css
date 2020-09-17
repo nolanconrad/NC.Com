@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.topInfo {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 275px 1fr;
+    grid-gap: 0px;
+}
+h1 {
+    font-size: 7rem;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+}
+.title {
+    background-color: yellow;
+}
+.titlePhoto {
+    background-color: darkgray;
+}
+img {
+    margin: auto;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mainContent {
+    width: 100%;
+    margin: auto;
+}
+.blurb {
+    padding: 12px;
+}
+h2 {
+    font-size: 4rem;
+}
+p {
+    font-size: 3rem;
+}
