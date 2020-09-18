@@ -5,11 +5,11 @@ body {
     background-color: #E8DCB9;
 }
 .topInfo {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 175px 1fr;
+    grid-template-rows: 300px 1fr;
     grid-gap: 0px;
 }
 h1 {
@@ -33,7 +33,7 @@ img {
     display: block;
 }
 .mainContent {
-    width: 100%;
+    width: 200%;
     margin: auto;
     background-color: #E8DCB9;
 }
