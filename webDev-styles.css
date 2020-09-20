@@ -5,7 +5,7 @@ body {
     background-color: #E8DCB9;
 }
 .topInfo {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -16,7 +16,6 @@ h1 {
     font-size: 7rem;
     margin: 0px;
     padding: 0px;
-    padding-top: 25px;
     padding-left: 10px;
 }
 .title {
@@ -33,21 +32,18 @@ img {
     display: block;
 }
 .mainContent {
-    width: 100%;
+    width: 200%;
     margin: auto;
     background-color: #E8DCB9;
 }
 .blurb {
     padding: 12px;
 }
-.links {
-    padding: 12px;
-}
-.examples {
-    padding: 12px
-}
 h2 {
     font-size: 4rem;
+}
+a {
+    font-size: 3rem;
 }
 p {
     font-size: 3rem;
@@ -61,16 +57,8 @@ p {
     padding: 10px;
     font-style: italic;
 }
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1200px) {
     .mainContent {
         width: 65%; 
-    }  
-}
-@media only screen and (min-width: 1000px) {
-    .mainContent {
-        width: 65%; 
-    }
-    .topInfo {
-        grid-template-rows: 175px 1fr;
     }  
 }
