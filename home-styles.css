@@ -3,7 +3,7 @@ body {
     padding: 0px;
     font-family: 'Arvo', serif;
     background-color: #7798AB;
-    width: 100vw;
+    width: 100% fixed;
     overflow-x: hidden;
 }
 .header {
